@@ -1,4 +1,4 @@
-package com.blank.rockpaperscissors
+package com.game.stonescissorspaper
 
 import org.junit.Test
 

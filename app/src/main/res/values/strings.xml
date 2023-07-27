@@ -1,14 +1,14 @@
 <resources>
-    <string name="app_name">rock paper scissors</string>
-    <string name="paper">Kertas</string>
-    <string name="scissors">Gunting</string>
-    <string name="rock">Batu</string>
-    <string name="player_one">Pemain 1</string>
+    <string name="app_name">Stone Scissors Paper</string>
+    <string name="paper">Paper</string>
+    <string name="scissors">Scissors</string>
+    <string name="rock">Stone</string>
+    <string name="player_one">Player 1</string>
     <string name="versus">VS</string>
-    <string name="computer">COM</string>
+    <string name="computer">Robot</string>
     <string name="refresh">Reset Game</string>
-    <string name="player_one_win">Pemain 1\nMENANG!</string>
-    <string name="player_two_win">Pemain 2\nMENANG!</string>
+    <string name="player_one_win">Player 1\nWin Game!</string>
+    <string name="player_two_win">Robot\nWin Game!</string>
     <string name="draw">DRAW\n</string>
     <string name="pick_rock">pick_rock</string>
     <string name="pick_paper">pick_paper</string>

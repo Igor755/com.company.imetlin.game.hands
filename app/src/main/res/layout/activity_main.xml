@@ -3,8 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ddeaf6"
-    tools:context=".MainActivity">
+    android:background="@color/draw_blue">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,16 +16,17 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="-17dp"
             android:fontFamily="@font/comic"
-            android:text="@string/paper"
-            android:textColor="#f6b26b"
+            android:text="@string/rock"
+            android:textColor="#c27ba0"
             android:textSize="42sp"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="-17dp"
+            android:layout_marginTop="-1dp"
             android:fontFamily="@font/comic"
             android:text="@string/scissors"
             android:textColor="#93c47d"
@@ -36,12 +36,12 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="-17dp"
             android:fontFamily="@font/comic"
-            android:text="@string/rock"
-            android:textColor="#c27ba0"
+            android:text="@string/paper"
+            android:textColor="#f6b26b"
             android:textSize="42sp"
             android:textStyle="bold" />
+
     </LinearLayout>
 
     <LinearLayout
@@ -61,7 +61,7 @@
             android:layout_marginBottom="10dp"
             android:fontFamily="@font/comic"
             android:text="@string/player_one"
-            android:textColor="#00b0f0"
+            android:textColor="@color/white"
             android:textSize="25sp"
             android:textStyle="bold" />
 
@@ -144,7 +144,7 @@
             android:layout_marginBottom="10dp"
             android:fontFamily="@font/comic"
             android:text="@string/computer"
-            android:textColor="#00b0f0"
+            android:textColor="@color/white"
             android:textSize="25sp"
             android:textStyle="bold" />
 
@@ -189,7 +189,12 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_margin="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
         android:background="@null"
         android:contentDescription="@string/refresh"
         android:src="@drawable/ic_refresh" />

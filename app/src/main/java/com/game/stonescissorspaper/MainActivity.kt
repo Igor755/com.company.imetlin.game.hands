@@ -1,9 +1,8 @@
-package com.blank.rockpaperscissors
+package com.game.stonescissorspaper
 
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.widget.ImageButton
 import android.widget.LinearLayout
 import android.widget.TextView
@@ -17,10 +16,8 @@ class MainActivity : AppCompatActivity(), CallbackMsg {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-        tvResult = findViewById<TextView>(R.id.tvResult)
-        llResult = findViewById<LinearLayout>(R.id.llResult)
-
+        tvResult = findViewById(R.id.tvResult)
+        llResult = findViewById(R.id.llResult)
         mutableListOf(
             R.id.btnPaperPlayerOne,
             R.id.btnRockPlayerOne,
@@ -31,7 +28,6 @@ class MainActivity : AppCompatActivity(), CallbackMsg {
                 findViewById<ImageButton>(i).setOnClickListener {
                     val btn = it as ImageButton
                     if (index != 3) {
-                        Log.d("MainActivity", "Player One: ${btn.tag}")
                         refresh(false)
                         val player = Player(btn.tag.toString())
                         val controller = Controller(this, this)
@@ -73,7 +69,6 @@ class MainActivity : AppCompatActivity(), CallbackMsg {
     }
 
     private fun selectComputer(s: String?) {
-        Log.d("MainActivity", "Player Two: $s")
         mutableListOf(
             R.id.btnPaperPlayerTwo,
             R.id.btnRockPlayerTwo,
@@ -89,7 +84,6 @@ class MainActivity : AppCompatActivity(), CallbackMsg {
     }
 
     override fun result(s: String) {
-        Log.d("MainActivity", "Result : $s")
         tvResult.text = s
         tvResult.textSize = 20F
         tvResult.setTextColor(ContextCompat.getColor(this, R.color.white))

@@ -1,8 +1,9 @@
-package com.blank.rockpaperscissors
+package com.game.stonescissorspaper
 
 import android.content.Context
 
 class Controller(private val listener: CallbackMsg, private val context: Context) {
+
     private var player: Player? = null
     private var playerTwo: Player? = null
     private var weakness = mapOf("scissors" to "rock", "paper" to "scissors", "rock" to "paper")
