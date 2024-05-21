@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
     android:background="@color/draw_blue">
 
     <LinearLayout
@@ -182,6 +183,16 @@
             android:tag="scissors" />
     </LinearLayout>
 
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_marginBottom="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-5248500607614632/7380714184" />
+
     <ImageButton
         android:id="@+id/btnRefresh"
         android:layout_width="50dp"
@@ -198,5 +209,7 @@
         android:background="@null"
         android:contentDescription="@string/refresh"
         android:src="@drawable/ic_refresh" />
+
+
 
 </RelativeLayout>

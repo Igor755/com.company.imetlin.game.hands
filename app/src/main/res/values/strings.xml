@@ -1,15 +1,15 @@
 <resources>
-    <string name="app_name">Stone Scissors Paper</string>
-    <string name="paper">Paper</string>
-    <string name="scissors">Scissors</string>
-    <string name="rock">Stone</string>
-    <string name="player_one">Player 1</string>
+    <string name="app_name">Камень, ножницы, бумага</string>
+    <string name="paper">Бумага</string>
+    <string name="scissors">Ножницы</string>
+    <string name="rock">Камень</string>
+    <string name="player_one">Игрок 1</string>
     <string name="versus">VS</string>
-    <string name="computer">Robot</string>
+    <string name="computer">Робот</string>
     <string name="refresh">Reset Game</string>
-    <string name="player_one_win">Player 1\nWin Game!</string>
-    <string name="player_two_win">Robot\nWin Game!</string>
-    <string name="draw">DRAW\n</string>
+    <string name="player_one_win">Игрок 1\nWin Game!</string>
+    <string name="player_two_win">Робот\nWin Game!</string>
+    <string name="draw">Ничья\n</string>
     <string name="pick_rock">pick_rock</string>
     <string name="pick_paper">pick_paper</string>
     <string name="pick_scissors">pick_scissors</string>

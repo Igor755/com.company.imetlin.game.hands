@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Rock Paper Scissor</string>
+    <string name="paper">Paper</string>
+    <string name="scissors">Scissor</string>
+    <string name="rock">Rock</string>
+    <string name="player_one">Player 1</string>
+    <string name="versus">VS</string>
+    <string name="computer">Robot</string>
+    <string name="refresh">Reset Game</string>
+    <string name="player_one_win">Player 1\nWin Game!</string>
+    <string name="player_two_win">Robot\nWin Game!</string>
+    <string name="draw">Draw\n</string>
+    <string name="pick_rock">pick_rock</string>
+    <string name="pick_paper">pick_paper</string>
+    <string name="pick_scissors">pick_scissors</string>
+</resources>
